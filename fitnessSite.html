@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fitness Town</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+		<body>
+			<header id="main-header">
+				<div class="container">
+					<h1>Fitness Town</h1>
+				</div>
+			</header>
+
+		<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">Fitness Town</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+		</div>
+		</nav>
+			
+				<!-- Headings -->
+				<div class="container">
+				<h1>The new workout button creates a new workout everytime you press it.</h1>
+
+				<button>New Workout</button>
+				<br>
+				<section id="workout">
+
+					<table>
+						<thead>
+							<th>Rep Scheme</th>
+							<th>Movements</th>
+
+						</thead>
+						<br>
+						<tbody>
+							<td>21-15-9</td>
+							<td>Toes to Bar and Burpees</td>
+						</tbody>
+					</table>
+				</section>
+			</div>
+				<h2>Post Time here</h2>
+
+				
+<div id="respond">
+
+  <h3>Leave a Comment</h3>
+
+  <form action="post_comment.php" method="post" id="commentform">
+
+    <label for="comment_author" class="required">Your name</label>
+    <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+    <label for="email" class="required">Your email</label>
+    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+    <label for="comment" class="required">Your message</label>
+    <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+    <!-- comment_post_ID value hard-coded as 1 -->
+    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+    <input name="submit" type="submit" value="Submit comment" />
+
+  </form>
+
+</div>
+
+
+
+				<div style="margin-top: 400px"></div>
+
+		</body>
+
+</html>
